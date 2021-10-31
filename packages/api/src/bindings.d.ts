@@ -6,21 +6,9 @@ import { Mode } from './middleware/maintenance.js'
 declare global {
   const SALT: string
   const DEBUG: string
-  const DEALS: KVNamespace
-  const USERS: KVNamespace
-  const NFTS: KVNamespace
-  const NFTS_IDX: KVNamespace
-  const METRICS: KVNamespace
-  const PINS: KVNamespace
-  const FOLLOWUPS: KVNamespace
-  const PINATA_QUEUE: KVNamespace
-  const PINATA_API_URL: string
-  const PINATA_PSA_API_URL: string
-  const PINATA_JWT: string
   const CLUSTER_SERVICE: 'IpfsCluster' | 'IpfsCluster2'
   const CLUSTER_API_URL: string
   const CLUSTER_BASIC_AUTH_TOKEN: string
-  const CLUSTER_ADDRS: string
   const MAGIC_SECRET_KEY: string
   const DATABASE_URL: string
   const DATABASE_TOKEN: string
